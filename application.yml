@@ -1,0 +1,9 @@
+# config-repo/application.yml
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bootcamp
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
